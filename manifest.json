@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Session Cleaner",
+  "version": "1.0",
+  "description": "Clears tab sessions with a toggle button and automatic clearing on icon click.",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
